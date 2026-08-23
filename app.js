@@ -30,5 +30,5 @@ app.get('/', (req, res) => {
 // Start the server
 app.listen(port, '0.0.0.0', () => {
     console.log(`✅ Webhook server running on port ${port}`);
-    console.log(`   Webhook URL: https://your-app-name.onrender.com/webhook/sms`);
+    console.log(`   Webhook URL: https://sms-receiver.onrender.com/webhook/sms`);
 });
